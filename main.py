@@ -103,4 +103,4 @@ while choice != 3:
       iD = input()
       print("Please enter the description of the product: ")
       description = input()
-      myInventory.modifyDescription(iD, description)
+      myInventory.modifyDescription(iD, description) 
