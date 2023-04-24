@@ -1,0 +1,8 @@
+The product name: Notebook
+The product ID: 1
+The product manufacturer: Asus
+The whole sale cost: 200
+The retail cost: 300
+The quantity in inventory: 12
+The reorder level: 3
+The description of the product: Notebook for coding

@@ -1,0 +1,38 @@
+A formatted copy of these instructions can be found in D2L under the content section.
+
+
+You will create a Product class that will keep track of individual items stored in a company’s inventory.  There will be NO input or output in this class.  The instance variables (parts of the object) are as follows:
+
+•	Product name
+•	Product ID (unique number to identify a product)
+•	Manufacturer
+•	Wholesale cost
+•	Retail cost
+•	Quantity in inventory
+•	Reorder level
+•	Description of product
+
+
+Functions will include:
+•	initializer
+•	Get / Set
+•	Reorder warning (checks the reorder level against the quantity in inventory and returns Boolean to indicate if the item needs to be reordered)
+•	Inventory value (returns the value of the current products inventory by calculating Qty * wholesale cost)
+•	Details (returns the basic details about a product such as product name and ID number)
+
+
+Once the Product class is created, you will create an Inventory class.  The instance variables are as follows:
+
+•	Inventory – A Python list that will hold items of type Product
+
+Functions will include:
+•	Initializer
+•	Add a product to inventory
+•	Sell a product (deduct from the quantity in inventory of a given Product)
+•	Current inventory value (go through all Products in the list, and for each Product call the Inventory Value function.  Return the total)
+•	All Inventory (goes through the list and sends the details of each product to an output file called inventory.txt)
+•	Reorder List (goes through the list calling the Reorder Warning function for each Product.  If a Product is to be reordered, print the current Product to an output file called reorderlist.txt)
+•	IsAnItem (returns boolean that indicates if an item is in the inventory)
+
+
+After your two classes are created and free from errors, you will write a main program that only deals with the Inventory class.  This means that the inventory class will need to handle all requests to the product class.  Think of everything that the product class does (all methods), and make the Inventory class capable of handling all function calls.  You will need to add more functions to the Inventory class than are listed above, so think carefully and test often.  Your main program should provide a menu (with a while loop) to users with a list of options.  The exact options are up to you, but if you look at the functions you wrote, you will see the details you can give in a menu.  Clear and concise comments are critical in the creation of these classes. 
